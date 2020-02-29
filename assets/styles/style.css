@@ -32,5 +32,19 @@ header {
     font-size: 60px;
     color: brown;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#button {
+    width: 200px;
+    height: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: brown;
+    background-color: burlywood;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 20px;
+    border-color:rgb(189, 155, 112);
 }
 
