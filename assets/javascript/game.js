@@ -17,15 +17,20 @@ $(document).ready(function() {
 
         $("#questions").append("helllloo");
 
-
        
         function timeup () {
             alert("Time");
             clearInterval(intervalid);
             $(".container").empty();
+            $("#questions").empty();
         };
 
-        
+        var input = document.createElement("form");
+        $("#questions").append(input);
+
+        var radio = document.createElement("input");
+        radio.setAttribute("type", "radio");
+        input.appendChild(radio);
 
 
 
