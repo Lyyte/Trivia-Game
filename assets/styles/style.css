@@ -12,10 +12,14 @@ body {
 .container {
     position: relative;
     padding: 70px;
+    padding-bottom: 100px;
     left: 50%; 
     text-align: center;
     background-color: burlywood;
     width: 1000px;
+    color: brown;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -25,5 +29,8 @@ header {
     left: 50%;
     background-color: burlywood;
     padding: 30px;
+    font-size: 60px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
 }
 
