@@ -48,3 +48,15 @@ button {
     border-color:rgb(189, 155, 112);
 }
 
+#questions {
+    position: relative;
+    padding: 70px;
+    padding-bottom: 100px;
+    left: 50%; 
+    text-align: center;
+    background-color: burlywood;
+    width: 1000px;
+    color: brown;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
