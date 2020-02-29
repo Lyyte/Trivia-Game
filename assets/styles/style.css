@@ -35,7 +35,7 @@ header {
     font-weight: bold;
 }
 
-#button {
+button {
     width: 200px;
     height: 75px;
     font-family: 'Courier New', Courier, monospace;
