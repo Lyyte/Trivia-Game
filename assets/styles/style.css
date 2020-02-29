@@ -6,15 +6,24 @@ body {
     float: right;
     position: relative;
     right: 50%;
+    text-align: center;
     }
 
 .container {
-    padding: 50px;
-    margin-top: 50%;
     position: relative;
+    padding: 70px;
     left: 50%; 
     text-align: center;
     background-color: burlywood;
     width: 1000px;
+}
+
+header {
+    position: relative;
+    margin-top: 30%;
+    text-align: center;
+    left: 50%;
+    background-color: burlywood;
+    padding: 30px;
 }
 
