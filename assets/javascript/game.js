@@ -15,8 +15,12 @@ $(document).ready(function() {
             $(".container").html("Seconds Remaining: " + time);
         }
 
-        $("#questions").append("helllloo");
-
+        var answer1 = $( 
+        "<form>" + '<input type="radio" id="answer" value="answers">' + '<label for="answer">Hello0</label>' +
+        "<form>" + '<input type="radio" id="answer" value="answers">' + '<label for="answer">Hello1</label>' +
+        "<form>" + '<input type="radio" id="answer" value="answers">' + '<label for="answer">Hello2</label>' +
+        "<form>" + '<input type="radio" id="answer" value="answers">' + '<label for="answer">Hello3</label>' );
+        $("#questions").append(answer1);
        
         function timeup () {
             alert("Time");
@@ -25,12 +29,7 @@ $(document).ready(function() {
             $("#questions").empty();
         };
 
-        var input = document.createElement("form");
-        $("#questions").append(input);
 
-        var radio = document.createElement("input");
-        radio.setAttribute("type", "radio");
-        input.appendChild(radio);
 
 
 
