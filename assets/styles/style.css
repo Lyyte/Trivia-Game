@@ -3,10 +3,18 @@ body {
 }
 
 .center {
+    float: right;
     position: relative;
-    left: 50%;
-    margin-top: 50%;
-    background-color: blue;
-    padding: 30px; 
+    right: 50%;
     }
+
+.container {
+    padding: 50px;
+    margin-top: 50%;
+    position: relative;
+    left: 50%; 
+    text-align: center;
+    background-color: burlywood;
+    width: 1000px;
+}
 
