@@ -101,29 +101,9 @@ $(document).ready(function() {
             var b = "Incorrect: " + incorrect;
             var c = "Unanswered: " + unanswered;
 
-            $("#questions").append("All done!!" + "<br><br>" + a + "<br>" + b + "<br>" + c + "<br>");
+            $("#questions").append("All done!!" + "<br><br>" + a + "<br>" + b + "<br>" + c + "<br>");``
 
-        };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     });
 
 });
